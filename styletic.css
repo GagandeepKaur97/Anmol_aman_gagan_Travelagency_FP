@@ -64,5 +64,29 @@ input::placeholder
 }
 .form-control
 {
+font-size: 12px ! important;
+border-radius: 0! important;
+color: rgb(236, 116, 116)! important;
+background: transparent! important;
+box-shadow: none! important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+    -webkit-appearance:none;
+    margin:0;
 
+}
+.select-date::-webkit-calender-picker-indicator
+{
+    background: transparent !important;
+}
+.custom-select
+{
+     color:rgb(236, 83, 83);
+     font-size: 12px;
+     border:1px solid #ced4da;
+     box-shadow: none;
+     border-radius: 0;
+     background:transparent !important;
 }
