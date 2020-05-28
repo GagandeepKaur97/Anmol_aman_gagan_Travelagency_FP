@@ -85,8 +85,26 @@ box-shadow: none! important;
 {
      color:rgb(236, 83, 83);
      font-size: 12px;
-     border:1px solid #ced4da;
+     border:1px solid #7db4eb;
      box-shadow: none;
      border-radius: 0;
      background:transparent !important;
+}
+.custom-select option{
+    color: rgb(14, 12, 12);
+
+}
+.flight{
+width: 100%;
+padding: 9px 0 ;
+font-size: 12px;
+border:1px solid #7eacdb !important;
+background: transparent!important;
+box-shadow: none! important;
+border-radius: 0!important;
+
+}
+.flight:hover{
+    background: rgb(236, 83, 83)!important;
+    color: #000!important;
 }
