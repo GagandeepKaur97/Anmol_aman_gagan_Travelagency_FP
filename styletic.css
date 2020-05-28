@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5)),rgba(0,0,0,0.5),url("file:///Users/gagan/Desktop/Anmol_aman_gagan_Travelagency_FP-1/Images/images.jpeg");
+    background-image: url("file:///Users/gagan/Desktop/Anmol_aman_gagan_Travelagency_FP-1/Images/intro.jpg");
     background-size: cover;
     background-position: center;
 }
