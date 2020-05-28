@@ -6,7 +6,7 @@ body{
 .booking-form-box
 {
 max-width: 350px;
-border: 1px solid #ced4da;
+border: 1px solid #8fbeee;
 margin:10% auto 0;
 
 
@@ -26,10 +26,10 @@ margin:10% auto 0;
     width: 15px;
     top: -2px;
     left:-1px;
-    background-color: #fff;
+    background-color: rgb(122, 238, 132);
     position: relative;
     display: inline-block;
-    border: 3px solid #fff;
+    border: 3px solid rgb(162, 235, 147);
     visibility: visible;
     border-radius: 50%;
 }
@@ -39,8 +39,30 @@ background-color: #000;
 transition: 0.5s;
 }
 .radio-btn span{
-    color: #fff;
+    color: rgb(236, 122, 122);
     margin-right: 5px;
     font-size: 12px;
     
+}
+.booking-form{
+    padding: 0 20px 20px;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(130, 216, 228);
+}
+input::placeholder
+{
+    color: rgb(122, 189, 235)! important;
+}
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+}
+.form-control
+{
+
 }
