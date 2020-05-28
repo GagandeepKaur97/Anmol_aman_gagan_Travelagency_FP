@@ -1,13 +1,85 @@
-body{
+html{
+    width: auto;
+    height: auto;
+}
+.para1{
+
+    margin-top: 10px;
+      width: 100%;
+      border-style: double;
+      border-radius: 0 5em 5em 5em;
+      box-shadow: 1em 1em 1em #4c4f4d;
+       
+       background-image: radial-gradient(#ffffff, #FFF0F5);
+    margin-bottom: 20px;
+    
+    }
+    .para1 h2 {
+      text-align: center;
+    }
+    .para1 p {
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .main2 {
+      clear: both;
+      width: 50%;
+     
+      border-style: solid;
+      padding: 2%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+    }
+    * {
+        box-sizing: border-box;
+      }
+      
+      .row {
+        display: flex;
+      }
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+        border-style: groove;
+      }
+      .column:hover{
+        background-color: MintCream;
+         transform: scale(1.2);
+      }
+      .count{
+        clear: both;
+        width: 50%;
+        float: left;
+      
+      }
+      .rate {
+        width: 50%;
+        float: right;
+        text-align: right;
+      
+      
+      }
+      .rate p {
+        margin-top: -1em;
+      
+      }
+      .count p{
+          margin-top: -1em;
+      }
+    body{
     background-image: url("file:///Users/gagan/Desktop/Anmol_aman_gagan_Travelagency_FP-1/Images/intro.jpg");
     background-size: cover;
     background-position: center;
+    width: auto;
+    height: auto;
 }
 .booking-form-box
 {
 max-width: 350px;
 border: 1px solid #8fbeee;
 margin:10% auto 0;
+margin-bottom: 10px;
 
 
 }
@@ -70,7 +142,7 @@ color: rgb(236, 116, 116)! important;
 background: transparent! important;
 box-shadow: none! important;
 }
-.select-date::-webkit-inner-spin-button,
+
 .select-date::-webkit-outer-spin-button
 {
     -webkit-appearance:none;
