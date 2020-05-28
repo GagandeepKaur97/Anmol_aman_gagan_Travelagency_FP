@@ -12,8 +12,9 @@ body {
 
 
 }
+
 .logo{
-  text-align: center;
+  text-align: left;
   color: #00060c;
     font-size: 15px;
 }
@@ -31,7 +32,7 @@ vertical-align: middle;
 
 
 .desktop{
-  display: none;
+  display: center;
 }
 
 /* Slideshow container */
@@ -325,7 +326,7 @@ img {
     }
  
     .desktop{
-      display: inline;
+      display: center;
     }
  
     .slideshow-container {
@@ -516,7 +517,7 @@ img {
    }
  
  .desktop{
-   display: inline;
+   display: center;
  }
  .mobile{
    display: none;
@@ -1004,5 +1005,13 @@ img {
   
   
     }
+
+    .logoh{
+        margin-left: 620px;
+        margin-right: 500px;
+       
+       
+    }
+    
   
   }  
