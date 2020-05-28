@@ -17,5 +17,19 @@ margin:10% auto 0;
 }
 .radio-btn .btn{
     margin : 20px 10px 20px 0;
+    box-shadow: none;
 
+}
+.radio-btn .btn::after{
+    content: ' ';
+    height : 15px;
+    width: 15px;
+    top: -2px;
+    left:-1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
 }
